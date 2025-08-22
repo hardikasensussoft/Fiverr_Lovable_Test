@@ -5,6 +5,10 @@ import { useLeadStore } from '@/lib/lead-store';
 export const SuccessMessage = () => {
   const { setSubmitted, sessionLeads } = useLeadStore();
 
+  const resetForm = () => {
+    setSubmitted(false);
+  };
+
   return (
     <div className="w-full max-w-md mx-auto">
       <div className="bg-gradient-card p-8 rounded-2xl shadow-card border border-border backdrop-blur-sm animate-slide-up text-center">
@@ -37,7 +41,7 @@ export const SuccessMessage = () => {
           </div>
 
           <Button
-            onClick={() => setSubmitted(false)}
+            onClick={resetForm}
             variant="outline"
             className="w-full border-border hover:bg-accent/10 transition-smooth group"
           >

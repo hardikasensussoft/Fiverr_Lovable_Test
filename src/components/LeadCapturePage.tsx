@@ -11,7 +11,7 @@ export const LeadCapturePage = () => {
       {/* Background GIF */}
       <div className="absolute inset-0">
         <img
-          src="https://fwjfenbkcgfgkaijgtsi.supabase.co/storage/v1/object/public/gif//noartistjustwatching_crazy_dynamic_camera_movements_with_high_e0c4efb9-94aa-43c8-9c61-04b82bfe6405_0.gif"
+          src="https://eqtkmqlibkcszvljlqtt.supabase.co/storage/v1/object/public/gif//noartistjustwatching_crazy_dynamic_camera_movements_with_high_e0c4efb9-94aa-43c8-9c61-04b82bfe6405_0.gif"
           alt="Background animation"
           className="w-full h-full object-cover"
         />
